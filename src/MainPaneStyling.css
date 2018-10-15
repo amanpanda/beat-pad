@@ -1,0 +1,75 @@
+.root {
+    -fx-background-color: cadetblue;
+}
+
+.beatPad {
+    -fx-background-color: #535353;
+}
+
+.melodyMaker {
+    -fx-background-color: #535353;
+}
+
+.sidebar {
+    -fx-background-color: #aaaaaa;
+}
+
+.centerPane {
+    -fx-background-color: #535353;
+}
+
+.melody-label {
+    -fx-text-fill: #ffffff;
+}
+
+.sidebar-label {
+    -fx-text-fill: #444444;
+}
+
+.counter {
+    -fx-text-fill: #000000;
+}
+
+.counter-on {
+    -fx-text-fill: #ccccff;
+}
+
+.button-unclicked {
+    -fx-background-color: #808080;
+}
+
+.grey-button{
+    -fx-background-color: #b0b0b0;
+}
+
+.grey-button:hover {
+    -fx-background-color: #b8b8b8;
+}
+
+.button:selected {
+    -fx-background-color: red;
+}
+
+.toggle-button {
+    -fx-border-radius: 100px;
+}
+.toggle-button:selected {
+    /*-fx-background-color: radial-gradient(center 1, radius 180%, dodgerblue, derive(dodgerblue, -30%), derive(dodgerblue, 30%));
+    */
+    -fx-background-color: radial-gradient(center 50% 50%, radius 100%, lightblue, dodgerblue, darkblue);
+    -fx-background-insets: 0 0 -1 0, 0, 1, 1;
+    /*-fx-border-radius: 100px;*/
+    /*-fx-padding: 8 15 15 15;*/
+    /*-fx-background-insets: 0,0 5 5 0, 0 6 6 0, 0 7 7 0;*/
+    /*-fx-background-radius: 8;*/
+    /*fx-background-color:*/
+            /*linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, lightblue 100%),*/
+            /*#9d4024,*/
+            /*#d86e3a,*/
+            /*radial-gradient(center 50% 50%, radius 100%, lightblue, dodgerblue, darkblue);*/
+    /*-fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );*/
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    /* TODO: -fx-text-fill should be derived */
+    -fx-text-fill: -fx-light-text-color;
+}
